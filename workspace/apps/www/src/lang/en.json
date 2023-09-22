@@ -1,0 +1,199 @@
+{
+  "$schema": "./lang.schema.json",
+  "title": "Local HR",
+  "description": "Local HR is a web application that allows users to search for local HR professionals and companies. Users can also post jobs and search for jobs.",
+  "buttons": {
+    "signin": {
+      "name": "Log in",
+      "href": "/signin"
+    },
+    "signup": {
+      "name": "Sign up",
+      "href": "/signup"
+    },
+    "joinus": {
+      "name": "Join us",
+      "href": "/signup"
+    },
+    "signout": {
+      "name": "Sign out",
+      "href": "/signout"
+    },
+    "learnmore": {
+      "name": "Learn more",
+      "href": "/about"
+    },
+    "get-started": {
+      "name": "Get started",
+      "href": "/get-started"
+    }
+  },
+  "navigation": [
+    { "name": "Dashboard", "href": "/dashboard", "current": true },
+    { "name": "Library", "href": "/library", "current": false },
+    { "name": "Categories", "href": "/categories", "current": false },
+    { "name": "Courses", "href": "/courses", "current": false },
+    { "name": "Dictionary", "href": "/dictionary", "current": false },
+    { "name": "Centers", "href": "/centers", "current": false },
+    { "name": "Contributors", "href": "/contributors", "current": false }
+  ],
+  "pages": {
+    "index": {
+      "title": "A better way to explore Sanskrit",
+      "description": "The single platform for anything related to Sanskrit language will be a comprehensive website that provides users with resources and information related to Sanskrit language. The website will include books, courses, a dictionary, information on centers of learning, and profiles of people actively working to promote Sanskrit language. Additionally, the website will have translations of all Sanskrit books to other languages.",
+      "navigation": [
+        { "name": "About", "href": "/about" },
+        { "name": "Library", "href": "/library" },
+        { "name": "Dictionary", "href": "/dictionary" },
+        { "name": "Courses", "href": "/courses" },
+        { "name": "Centers", "href": "/centers" },
+        { "name": "Blog", "href": "/blogs" }
+      ],
+      "features": {
+        "subtitle": "Everything you need",
+        "title": " All-in-one platform",
+        "description": "The Sanskrit Project is a comprehensive platform dedicated to the Sanskrit language. The project aims to promote the language as a language of the masses and provide a single platform for anything related to Sanskrit. The platform will be available on mobile, tablet, and desktop, making it easily accessible to users worldwide.",
+        "items": [
+          {
+            "name": "Library",
+            "description": "Library contains all the books of Sanskrit with translations to all other languages. it consists of all Spiritual books compiles at one place."
+          },
+          {
+            "name": "Dictionary",
+            "description": "The Sanskrit Project offers a comprehensive and user-friendly Sanskrit dictionary for all other languages."
+          },
+          {
+            "name": "Learning Materials",
+            "description": "We offer courses, short videos, long lectures, notes, articles, blogs, and books for users of all age groups and levels of proficiency in the Sanskrit language."
+          },
+          {
+            "name": "Courses",
+            "description": "The courses offered by the Sanskrit Project cater to users of all age groups and levels of proficiency in the Sanskrit language. They are designed to make the learning experience fun and interactive."
+          },
+          {
+            "name": "Multi lingual",
+            "description": "The Sanskrit Project is available in English, Hindi, Bengali, Telugu, Marathi, Tamil, Gujarati, and Urdu."
+          },
+          {
+            "name": "Contributers",
+            "description": "The Sanskrit Project provides a platform for contributors to share their knowledge and expertise in the Sanskrit language. Contributors can share their articles, blogs, and other content related to Sanskrit."
+          },
+          {
+            "name": "Mobile app",
+            "description": "The Sanskrit Project is available on mobile, tablet, and desktop, making it easily accessible to users worldwide."
+          },
+          {
+            "name": "List view",
+            "description": "In sit qui aliquid deleniti et. Ad nobis sunt omnis. Quo sapiente dicta laboriosam."
+          }
+        ],
+        "list": [
+          {
+            "title": "Learn Sanskrit",
+            "description": "Learn Sanskrit with our courses and books.",
+            "href": "/courses"
+          },
+          {
+            "title": "Find Sanskrit Resources",
+            "description": "Find Sanskrit resources like books, courses, and centers.",
+            "href": "/library"
+          },
+          {
+            "title": "Learn Sanskrit",
+            "description": "Learn Sanskrit with our courses and books.",
+            "href": "/courses"
+          },
+          {
+            "title": "Find Sanskrit Resources",
+            "description": "Find Sanskrit resources like books, courses, and centers.",
+            "href": "/library"
+          }
+        ]
+      },
+      "team": {
+        "title": "About the team",
+        "description": "We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.",
+        "list": [
+          {
+            "name": "Himank Barve",
+            "role": "Founder & CEO",
+            "description": "Mayash Foundation is a non-profit organization that aims to promote Sanskrit language. This foundation was founded by Himank Barve in 2022.",
+            "avatar": "https://avatars.githubusercontent.com/u/1026325?v=4",
+            "twitterUrl": "https://www.twitter.com/hbarve1",
+            "linkedinUrl": "https://www.linkedin.com/in/hbarve1",
+            "githubUrl": "https://www.github.com/hbarve1"
+          }
+        ]
+      },
+      "footer": {
+        "description": "Making the world a better place through constructing elegant hierarchies.",
+        "navigation": {
+          "solutions": [
+            { "name": "Marketing", "href": "#" },
+            { "name": "Analytics", "href": "#" },
+            { "name": "Commerce", "href": "#" },
+            { "name": "Insights", "href": "#" }
+          ],
+          "support": [
+            { "name": "Pricing", "href": "#" },
+            { "name": "Documentation", "href": "#" },
+            { "name": "Guides", "href": "#" },
+            { "name": "API Status", "href": "#" }
+          ],
+          "company": [
+            { "name": "About", "href": "#" },
+            { "name": "Blog", "href": "#" },
+            { "name": "Jobs", "href": "#" },
+            { "name": "Press", "href": "#" },
+            { "name": "Partners", "href": "#" }
+          ],
+          "legal": [
+            { "name": "Claim", "href": "#" },
+            { "name": "Privacy", "href": "#" },
+            { "name": "Terms", "href": "#" }
+          ],
+          "social": [
+            {
+              "name": "Facebook",
+              "href": "#"
+            },
+            {
+              "name": "Instagram",
+              "href": "#"
+            },
+            {
+              "name": "Twitter",
+              "href": "#"
+            },
+            {
+              "name": "GitHub",
+              "href": "#"
+            },
+            {
+              "name": "YouTube",
+              "href": "#"
+            }
+          ]
+        }
+      }
+    },
+    "signin": {
+      "title": "Sign in to your account",
+      "or": "Or",
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "phoneNumber": "Phone Number",
+      "otp": "OTP",
+      "remember-me": "Remember me",
+      "forgot-password": "Forgot your password?"
+    },
+    "signup": {
+      "title": "Sign in to your account",
+      "or": "Or",
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "phoneNumber": "Phone Number",
+      "otp": "OTP",
+      "remember-me": "Remember me",
+      "forgot-password": "Forgot your password?"
+    }
+  }
+}

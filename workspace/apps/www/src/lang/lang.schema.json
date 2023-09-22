@@ -1,0 +1,256 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "discription": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "object",
+      "properties": {
+        "signin": {
+          "type": "string"
+        },
+        "signup": {
+          "type": "string"
+        },
+        "signout": {
+          "type": "string"
+        },
+        "learn-more": {
+          "type": "string"
+        },
+        "get-started": {
+          "type": "string"
+        }
+      },
+      "required": ["signin", "signup", "signout", "learn-more", "get-started"]
+    },
+    "navigations": {
+      "type": "object",
+      "properties": {
+        "home": {
+          "type": "string"
+        },
+        "about": {
+          "type": "string"
+        },
+        "contact": {
+          "type": "string"
+        },
+        "jobs": {
+          "type": "string"
+        },
+        "features": {
+          "type": "string"
+        },
+        "pricing": {
+          "type": "string"
+        },
+        "faqs": {
+          "type": "string"
+        },
+        "testimonials": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "home",
+        "about",
+        "contact",
+        "jobs",
+        "features",
+        "pricing",
+        "faqs",
+        "testimonials"
+      ]
+    },
+    "pages": {
+      "type": "object",
+      "properties": {
+        "index": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "discription": {
+              "type": "string"
+            },
+            "about-section": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": ["title", "description"]
+            },
+            "feature-section": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "list": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["title", "description"]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["title", "description"]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["title", "description"]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        }
+                      },
+                      "required": ["title", "description"]
+                    }
+                  ]
+                }
+              },
+              "required": ["name", "title", "description", "list"]
+            }
+          },
+          "required": [
+            "title",
+            "discription",
+            "about-section",
+            "feature-section"
+          ]
+        },
+        "signin": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "or": {
+              "type": "string"
+            },
+            "discription": {
+              "type": "string"
+            },
+            "phoneNumber": {
+              "type": "string"
+            },
+            "otp": {
+              "type": "string"
+            },
+            "remember-me": {
+              "type": "string"
+            },
+            "forgot-password": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "title",
+            "or",
+            "discription",
+            "phoneNumber",
+            "otp",
+            "remember-me",
+            "forgot-password"
+          ]
+        },
+        "signup": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "or": {
+              "type": "string"
+            },
+            "discription": {
+              "type": "string"
+            },
+            "phoneNumber": {
+              "type": "string"
+            },
+            "otp": {
+              "type": "string"
+            },
+            "remember-me": {
+              "type": "string"
+            },
+            "forgot-password": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "title",
+            "or",
+            "discription",
+            "phoneNumber",
+            "otp",
+            "remember-me",
+            "forgot-password"
+          ]
+        }
+      },
+      "required": ["index", "signin", "signup"]
+    }
+  },
+  "required": [
+    "$schema",
+    "title",
+    "discription",
+    "buttons",
+    "navigations",
+    "pages"
+  ]
+}
